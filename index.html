@@ -17,6 +17,7 @@
   />
 
   <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#16324F" />
 
   <!-- URL canônica -->
   <link
@@ -45,8 +46,11 @@
 
   <meta
     property="og:image"
-    content="https://triarca-company.github.io/Triarca/assets/triarca.webp"
+    content="https://triarca-company.github.io/Triarca/assets/triarca-optimized.webp"
   />
+
+  <meta property="og:image:width" content="1254" />
+  <meta property="og:image:height" content="1254" />
 
   <meta
     property="og:image:alt"
@@ -68,13 +72,13 @@
 
   <meta
     name="twitter:image"
-    content="https://triarca-company.github.io/Triarca/assets/triarca.webp"
+    content="https://triarca-company.github.io/Triarca/assets/triarca-optimized.webp"
   />
 
   <!-- Favicon -->
   <link
     rel="icon"
-    href="assets/triarca.webp"
+    href="assets/triarca-optimized.webp"
     type="image/webp"
   />
 
@@ -100,7 +104,7 @@
     "@type": "Organization",
     "name": "TRIARCA",
     "url": "https://triarca-company.github.io/Triarca/",
-    "logo": "https://triarca-company.github.io/Triarca/assets/triarca.webp",
+    "logo": "https://triarca-company.github.io/Triarca/assets/triarca-optimized.webp",
     "description": "Empresa de estratégia de marca, experiência digital e tecnologia.",
     "email": "equipetriarca@gmail.com",
     "telephone": "+55 11 91652-3456",
@@ -117,7 +121,7 @@
       <a href="#inicio" class="brand" aria-label="TRIARCA — início">
         <span class="brand-mark">
           <img
-            src="assets/triarca.webp"
+            src="assets/triarca-optimized.webp"
             alt="Símbolo da TRIARCA"
             width="120"
             height="120"
@@ -127,7 +131,7 @@
         <span class="brand-wordmark">TRI<span>ARCA</span></span>
       </a>
 
-      <nav class="nav" aria-label="Menu principal">
+      <nav class="nav" id="menu-principal" aria-label="Menu principal">
         <a href="#inicio">Início</a>
         <a href="#sobre">Sobre</a>
         <a href="#fundadores">Fundadores</a>
@@ -150,6 +154,7 @@
         class="menu-toggle"
         aria-label="Abrir menu"
         aria-expanded="false"
+        aria-controls="menu-principal"
       >
         <span></span>
       </button>
@@ -211,7 +216,7 @@
           <div class="hero-surface">
             <div class="brand-orbit">
               <img
-                src="assets/triarca.webp"
+                src="assets/triarca-optimized.webp"
                 alt=""
                 width="540"
                 height="540"
@@ -534,7 +539,7 @@
 
               <figure
                 class="project-image"
-                style="background-image:url('assets/mrsolucoes.webp');"
+                style="background-image:url('assets/mrsolucoes-optimized.webp');"
                 aria-label="Projeto MR Soluções Elétricas"
               ></figure>
 
@@ -633,10 +638,11 @@
         <aside class="manifesto-art" aria-hidden="true">
           <img
             class="manifesto-mark"
-            src="assets/triarca.webp"
+            src="assets/triarca-optimized.webp"
             alt=""
             width="500"
             height="500"
+            loading="lazy"
           >
         </aside>
 
@@ -681,10 +687,11 @@
           >
             <span class="brand-mark">
               <img
-                src="assets/triarca.webp"
+                src="assets/triarca-optimized.webp"
                 alt="Símbolo da TRIARCA"
                 width="120"
                 height="120"
+                loading="lazy"
               >
             </span>
 
@@ -733,20 +740,6 @@
           <h4>Redes</h4>
 
           <a
-            href="#"
-            aria-label="Instagram da TRIARCA"
-          >
-            Instagram
-          </a>
-
-          <a
-            href="#"
-            aria-label="LinkedIn da TRIARCA"
-          >
-            LinkedIn
-          </a>
-
-          <a
             href="https://github.com/Triarca-Company"
             target="_blank"
             rel="noopener"
@@ -769,4 +762,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-```

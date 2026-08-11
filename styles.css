@@ -44,6 +44,13 @@ button {
   font: inherit;
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--laranja);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
 .container {
   width: min(var(--container), calc(100% - 32px));
   margin: 0 auto;
